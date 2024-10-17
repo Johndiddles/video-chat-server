@@ -24,6 +24,7 @@ const io = socketio(expressServer, {
     origin: [
       "https://localhost:3000",
       "https://192.168.0.135:3000",
+      "https://viddy-dgnldsjh6-johndiddles-projects.vercel.app/",
       // 'https://LOCAL-DEV-IP-HERE' //if using a phone or another computer
     ],
     methods: ["GET", "POST"],
