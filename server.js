@@ -27,6 +27,7 @@ const io = socketio(expressServer, {
       "https://localhost:3000",
       "https://192.168.0.135:3000",
       "https://viddy-dgnldsjh6-johndiddles-projects.vercel.app",
+      "https://viddy-tau.vercel.app/",
     ],
     methods: ["GET", "POST"],
   },
